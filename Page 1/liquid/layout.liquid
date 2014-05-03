@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="cs" class="ie7 no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="cs" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="cs" class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="cs" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <title>LAS CINCO INDUSTRIAS QUE TE CREARÁN RIQUEZA</title>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" media="screen, projection" href="{% stylesheet_url 'style.css?v=1' %}"/>
+  <link rel="stylesheet" media="print" href="{% stylesheet_url 'print.css?v=1' %}"/>
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+</head>
+<body class="page-subpage">
+  <div id="main">
+    <div class="row-main">
+      <div class="col col-book">
+        <img src="{% image_url 'arrow.png' %}" alt="book" />
+      </div>
+      <div class="col col-content">
+        <div class="in">
+          <h2>LAS CINCO INDUSTRIAS QUE TE CREARÁN</h2>
+          <h1>RIQUEZA</h1>
+          <hr>
+          <h3>¿Dónde te envío esta información?</h3>
+          <p>Ingresa tu nombre y correo electrónico en las casillas de abajo para enviarte las cinco industrias</p>
+          <form  method="post">
+            <div class="row with-info-text">
+              <label for="name" class="label">Ingresa tu nombre</label>
+              <p class="inp-row">
+                <span class="inp-fix"><input type="text" class="inp-text" name="name" id="name" placeholder="Ingresa tu primer nombre" /></span>
+              </p>
+            </div>
+            <div class="row">
+              <label for="mail" class="label">Ingresa un email valido</label>
+              <p class="inp-row">
+                <span class="inp-fix"><input type="text" class="inp-text" name="email" id="mail" placeholder="Ingresa un email válido" /></span>
+              </p>
+            </div>
+            <div class="row">
+              <p class="buttons">
+                <button class="btn"><span>Envíame La Info GRATIS</span></button>
+              </p>
+            </div>
+          </form>
+          <p class="secure">Tu informacón es 100% segura y nunca sera compartida con nadie.</p>
+          <p class="legal"><a href="#">Información legal</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--[if lte IE 8 ]>
+    <img src="./img/bg.jpg" alt="" class="bg-ie" />
+  <![endif]-->
+
+  <script src="{% javascript_url jquery.js?v=1 %}"></script>
+  <script src="{% javascript_url app.js?v=1 %}"></script>
+  <script>
+    App.run({})
+  </script>
+</body>
+</html>
+
+

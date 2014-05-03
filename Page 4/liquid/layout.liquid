@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Industria Millonaria Busca Estudiantes para La Siguiente Ola de Empresarios en Lograr Libertad Financiera</title>
+    <link rel="stylesheet" href="{% stylesheet_url 'bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% stylesheet_url 'style.css' %}"/>
+  </head>
+  <body>
+   <header>
+    <div class="black-header"></div>
+    <div class="border-1"></div>
+   </header>
+   <div id="texts">
+     <!--<h3>Nullam a sodales nisl, et vulputate tellus</h3>-->
+     <img src="{% image_url 'arrow.png' %}">
+     <h1>Industria Millonaria...<br> Busca Estudiantes para La Siguiente Ola de Empresarios en Lograr Libertad Financiera</h1>
+     <h4>[Aplica Ahora Mismo]</h4>
+     <form method="post">
+        <input class="text-inputs" type="text" name="name" placeholder="Ingresa tu nombre">
+        <input class="text-inputs" type="text" name="email" placeholder="Ingresa tu email">
+        <div id="send-now"><input type="submit" value="Enviar Ahora"></div>
+     </form>
+   </div>
+   <div id="people">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+           <div class="people-img"><img src="{% image_url 'raulluna.jpg' %}" class="img-circle"></div>
+           <div class="people-text">
+             <p>De bancarrota a libertad financiera en 10 meses.</p>
+             <h4>Raúl Luna</h4>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="people-img"><img src="{% image_url 'esther.jpg' %}" class="img-circle"></div>
+           <div class="people-text">
+             <p>Mi ingreso anual se convirtió en mi ingreso mensual.</p>
+             <h4>Esther Hernández</h4>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="people-img"><img src="{% image_url 'joseardon.jpg' %}" class="img-circle"></div>
+           <div class="people-text">
+             <p>Solo estudié hasta 4to grado de primaria, aun así, me convertí en millonario.</p>
+             <h4>José Ardón</h4>
+           </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="border-2"></div>
+   <footer>
+    <p>© 2014 - Todos los derechos reservados.</p>
+   </footer>
+  </body>
+</html>

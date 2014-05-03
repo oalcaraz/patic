@@ -1,0 +1,202 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+
+form {
+  text-align: center;
+}
+
+form h3 {
+  text-align: center;
+}
+
+#header-title {
+  padding: 0px;
+}
+
+#header-title h2 {
+  font-size: 29px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.header-hr {
+  padding: 15px 0px 0px 0px;
+}
+
+.header-hr hr {
+  border-top: 1px solid #b6b7b7;
+}
+
+#titles h1 {
+  font-size: 67px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px;
+}
+
+#titles h2 {
+  font-size: 44px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #5a6060;
+  margin-top: 10px;
+}
+
+#raul-luna {
+  text-align: center;
+  width: 185px;
+  float: left;
+}
+
+#raul-luna h3 {
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: #3f4444;
+}
+
+#texts h3 {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 28px;
+  color: #696d6d;
+  margin-top: 5px;
+}
+
+#texts p {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#texts h2{
+  font-size: 44px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.raul-row {
+  margin-top: 20px;
+}
+
+#form-bg {
+  background: url(../images/background.png);
+  min-height: 105px;
+  padding: 20px 0 40px;
+}
+
+#send-now input {
+  color: white;
+  font-weight: bold;
+  border: 1px solid #34ab3d;
+  border-radius: 8px;
+  height: 43px;
+  width: 215px;
+  font-size: 1.7em;
+  padding: 1px 30px 1px 1px;
+  background-color: #4fc23f;
+  /*background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #31901B), color-stop(1, #59D34B) ); */
+  background: url(../images/arrows_07.png) no-repeat right 10px center, -moz-linear-gradient(top, #31901B 0%, #59D34B 100%);
+  background: url(../images/arrows_07.png) no-repeat right 10px center, -webkit-linear-gradient(top, #31901B 0%, #59D34B 100%);
+  background: url(../images/arrows_07.png) no-repeat right 10px center, -ms-linear-gradient(top, #31901B 0%, #59D34B 100%);
+  background: url(../images/arrows_07.png) no-repeat right 10px center, linear-gradient(to top, #31901B 0%, #59D34B 100%);
+}
+
+#send-now {
+  display: inline;
+}
+
+.text-inputs {
+  height: 30px;
+  width: 192px;
+  border: 1px solid #858687;
+  padding:0  10px;
+  margin-right: 18px;
+  font-size: 19px;
+  color: #696d6d;
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #696d6d;
+}
+:-moz-placeholder { 
+  color: #696d6d;
+}
+::-moz-placeholder {     
+  color: #696d6d;
+}
+:-ms-input-placeholder {     
+  color: #696d6d;
+}
+
+/**************************/
+/* Media Queries          */
+/**************************/
+@media (max-width: 767px) {
+
+  #header-title h2 {
+    font-size: 18px;
+  }
+
+  .header-hr {
+    padding: 0px;
+  }
+
+  #titles h1 {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  #titles h2 {
+    font-size: 19px;
+  }
+
+  #texts h3 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  #texts p {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  #texts h2{
+    font-size: 30px;
+  }
+
+  #raul-luna h3 {
+    font-size: 18px;
+    margin-top: 7px;
+  }
+
+  #raul-luna img {
+    width: 110px;
+  }
+
+  #raul-luna {
+    width: 125px;
+  }
+
+  #send-now input{
+    margin-bottom: 15px;
+  }
+
+  .text-inputs {
+    margin: 0px auto 15px auto;
+
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .container {
+    width: 1000px;
+  }
+
+}
