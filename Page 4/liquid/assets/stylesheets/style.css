@@ -147,54 +147,56 @@ footer p {
   }
 
   h1{
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
- input {
-  margin-top: 10px; 
- }
+  input {
+    margin-top: 10px;
+  }
 
- .text-inputs {
-  font-size: 1.5em;
-}
+  .text-inputs {
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+  }
 
- form {
-  text-align: center;
- }
+  form {
+    text-align: center;
+  }
 
- #send-now {
-  display: block;
-  font-size: 1.8em;
-}
+  #send-now {
+    display: block;
+    font-size: 1.8em;
+  }
 
-.container{
-  width: 100%;
-  text-align: center;
-}
+  .container{
+    width: 100%;
+    text-align: center;
+  }
 
-.people-img img {
-  
-}
+  .people-img img {
+    width: 150px;
+    height: 150px;
+  }
 
-.people-text {
-  width: 80%;
-}
+  .people-text {
+    width: 80%;
+  }
 
-#people h4 {
-  text-align: center;
-  margin-bottom: 45px;
-}
+  #people h4 {
+    text-align: center;
+    margin-bottom: 45px;
+  }
 }
 
 @media (max-width: 990px) {
 
-.container{
-  width: 100%;
-  text-align: center;
-}
+  .container{
+    width: 100%;
+    text-align: center;
+  }
 
-#people h4 {
-  text-align: center;
-  margin-bottom: 45px;
-}
+  #people h4 {
+    text-align: center;
+    margin-bottom: 45px;
+  }
 }

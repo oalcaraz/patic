@@ -141,7 +141,7 @@
     display: none;
    }
 
-   .formulario h1 {
+   h1 {
     font-size: 25px;
     text-align: center;
    }
@@ -176,7 +176,6 @@
 
   #cuadrado-div {
     width: 100%;
-
   }
 
   .video iframe {
@@ -184,31 +183,39 @@
     height: 200px;
   }
 
-   .formulario{
+  .formulario{
     width: 100%
-   }
+  }
 
-   .formulario img {
+  .formulario img {
     display: none;
-   }
+  }
 
-   .formulario h1 {
+  h1 {
     font-size: 20px;
     text-align: center;
-   }
+  }
 
-   form {
+  form {
     text-align: center;
-   }
-
-   #people{
+  }
+  
+  .text-inputs {
+    width: auto;
+    margin: 0;
+  }
+  #send-now input {
+    width: 255px;
+  }
+   
+  #people{
     top: 0px;
     margin-top: 20px;
     height:100%;
     text-align: center;
-   }
+  }
 
-   #people h3 {
+  #people h3 {
     margin-top: 5px;
   }
 

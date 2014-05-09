@@ -2,22 +2,33 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Cómo Transformar Tu Ingreso Anual en Tu Ingreso Mensual</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Las Cinco Industrias Que Te Crearán RIQUEZA</title>
     <link rel="stylesheet" href="{% stylesheet_url 'bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% stylesheet_url 'style.css' %}"/>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
     <div id="black-header"></div>
     <div class="container">
       <div class="col-md-8 video">
+        <h1 class="visible-xs">Las Cinco Industrias Que Te Crearán RIQUEZA</h1>
         <div id="cuadrado-div">
-        <iframe src="//fast.wistia.net/embed/iframe/44mauer819" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="642" height="361"></iframe>
-        <h2>Da click ahora en el video...</h2>
+        <iframe src="//player.vimeo.com/video/77013565" width="642" height="361" class="wistia_embed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <h2 class="hidden-xs">Da click ahora en el video...</h2>
         </div>
       </div>
       <div class="col-md-4 formulario">
         <img src="{% image_url 'arrows_03.png' %}">
-        <h1>Cómo Transformar Tu Ingreso Anual en Tu Ingreso Mensual </h1>
+        <h1 class="hidden-xs">Las Cinco Industrias Que Te Crearán RIQUEZA</h1>
+        <p class="visible-xs text-center">Ingresa tus datos:</p>
         <form method="post">
           <input class="text-inputs" type="text" name="name" placeholder="Ingresa tu Nombre...">
           <input class="text-inputs" type="text" name="email" placeholder="Ingresa tu Email...">
@@ -27,7 +38,7 @@
     </div>
     <div id="people">
       <div class="container">
-        <div class="row">
+        <div class="row" style="display:none;">
           <div class="col-md-4">
             <div class="col-md-5"><img src="{% image_url 'people_03.png' %}"></div>
             <div class="col-md-7">

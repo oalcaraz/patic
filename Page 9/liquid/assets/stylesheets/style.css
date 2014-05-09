@@ -143,29 +143,25 @@ footer p {
   }
 
   h1{
-    font-size: 2.6em;
+    font-size: 2em;
   }
 
-   input {
-  margin-top: 10px; 
- }
+  input {
+    margin-top: 10px; 
+  }
 
- .text-inputs {
-  font-size: 1.5em;
-}
+  .text-inputs {
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+  }
 
- form {
-  text-align: center;
- }
+  form {
+    text-align: center;
+  }
 
- #send-now {
-  display: block;
-  font-size: 1.9em;
-}
-
-
-
-
-
+  #send-now {
+    display: block;
+    font-size: 1.9em;
+  }
 
 }
