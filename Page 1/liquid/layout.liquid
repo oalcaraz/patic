@@ -21,7 +21,7 @@
   <div id="main">
     <div class="row-main">
       <div class="col col-book">
-        <img id="imagen_principal" src="{% if editable_elements.person_1_picture.type == 'default' %}{% image_url 'raulluna.jpg' %}{% else %}{{ editable_elements.person_1_picture.src }}{% endif %}" alt="book" />
+        <img id="imagen_principal" src="{% if editable_elements.imagen_principal.type == 'default' %}{% image_url 'arrow.png' %}{% else %}{{ editable_elements.imagen_principal.src }}{% endif %}" alt="book" />
       </div>
       <div class="col col-content">
         <div class="in">
