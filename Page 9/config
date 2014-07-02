@@ -1,30 +1,33 @@
 editable_elements:
-  main_text:
+  titulo_principal:
     text:
-      "NOTICIA DE ÚLTIMA HORA"
-  secondary_text:
+      "Noticia de última hora"
+  texto_principal:
     text:
-      "Descubre Las Cinco Industrias Que Te Crearán RIQUEZA"
-  pregunta_direccion_envio:
+      "Padre de Familia Desesperado y En Bancarrota<br>Descubre Una Industria Que Lo Transforma en Millonario…"
+  texto_direccion_envio:
     text:
-      "¿Dónde te puedo enviar más información?"      
-  input_name:
-    placeholder:
-      "Nombre"
-  input_mail:
-    placeholder:
-      "Email"
-  input_boton_enviar:
+      "[¿Dónde puede enviarte esta información?]"
+  texto_secundario:
+    text:
+      "¿Cómo Puedes Ser Parte de Esta Industria?"
+  input_send:
     value:
-      "Enviar"
+      "Enviar Ahora"
     css:
       font-size:
         "24px"
+  input_name:
+    placeholder:
+      "Ingresa tu nombre"
+  input_mail:
+    placeholder:
+      "Ingresa tu email"
 editable_styles:
   "selector":
     css:
       background-color:
-        "#0C1220"
+        "#ffffff"
 available_fonts:
   "Source Sans Pro": 
     "'Source Sans Pro', sans-serif"
@@ -37,6 +40,8 @@ available_images:
     []
   user_images:
     []
+
+
 scripts:
   head_tracking_script:
     "<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'YOUR_CODE', 'YOURSITE.com'); ga('send', 'pageview');</script>"
@@ -45,7 +50,7 @@ scripts:
     ""
 seo:
   title:
-    "LAS CINCO INDUSTRIAS QUE TE CREARÁN RIQUEZA"
+    "Padre de Familia Desesperado y En Bancarrota Descubre Una Industria Que Lo Transforma en Millonario"
   description:
     "page description"
   keywords:

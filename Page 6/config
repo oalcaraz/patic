@@ -20,6 +20,9 @@ editable_elements:
   input_boton_enviar:
     value:
       "Quiero Ser Parte "
+    css:
+      font-size:
+        "24px"
 editable_styles:
   "selector":
     css:

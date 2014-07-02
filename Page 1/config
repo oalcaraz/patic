@@ -26,6 +26,9 @@ editable_elements:
   texto_boton_enviar:
     text:
       "Envíame La Info GRATIS"
+    css:
+      font-size:
+        "24px"
   imagen_principal:
     src:
       "arrow.png"

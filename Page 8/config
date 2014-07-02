@@ -1,26 +1,34 @@
 editable_elements:
-  main_text:
+  titulo_principal:
     text:
-      "Industria Millonaria... Busca Estudiantes para La Siguiente Ola de Empresarios en Lograr Libertad Financiera"
-    css:
-      color:
-        "#000000"
-      font-family:
-        "'Source Sans Pro', sans-serif"
-      font-size:
-        "50px"
-      font-weight:
-        "bold"
-      text-decoration:
-        "none"
-      font-style:
-        "normal"
-  secondary_text:
+      "Noticia de última hora"
+  texto_principal_1:
     text:
-      "[Aplica Ahora Mismo]"
+      "“Padre Desesperado, en Bancarrota y Ansioso por Cambiar Su Situación Financiera Hace Un Último Intento por Recuperar La Confianza de Su Familia"
+  texto_principal_2:
+    text:
+      "… Lo que sucedió fue algo impresionante”"
+  texto_direccion_envio:
+    text:
+      "¿Dónde te envió esta información?"
+  texto_secundario_1:
+    text:
+      "Estimado emprendedor,"
+  texto_secundario_2:
+    text:
+      "Estaba en bancarrota, sin dinero y sin contactos pero encontré una industria que cambió mi vida para siempre."
+  texto_secundario_3:
+    text:
+      "¿Te gustaría saber que industria y los errores que debes evitar?"
+  texto_secundario_4:
+    text:
+      "¡Sí! Es Completamente GRATIS"
   input_send:
     value:
       "Enviar Ahora"
+    css:
+      font-size:
+        "24px"
   input_name:
     placeholder:
       "Ingresa tu nombre"
@@ -29,37 +37,12 @@ editable_elements:
       "Ingresa tu email"
   person_1_picture:
     src:
-      "raulluna.jpg"
+      "raul-luna_03.png"
     type:
       "default"
-  person_2_picture:
-    src:
-      "esther.jpg"
-    type:
-      "default"
-  person_3_picture:
-    src:
-      "joseardon.jpg"
-    type:
-      "default"
-  person_1_description:
-    text:
-      "De bancarrota a libertad financiera en 10 meses."
   person_1_name:
     text:
       "Raúl Luna"
-  person_2_description:
-    text:
-      "Mi ingreso anual se convirtió en mi ingreso mensual."
-  person_2_name:
-    text:
-      "Esther Hernández"
-  person_3_description:
-    text:
-      "Solo estudié hasta 4to grado de primaria, aun así, me convertí en millonario."
-  person_3_name:
-    text:
-      "José Ardón"
 editable_styles:
   "selector":
     css:
@@ -74,7 +57,7 @@ available_font_sizes:
   ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px"]
 available_images:
   template_images:
-    ["raulluna.jpg","esther.jpg","joseardon.jpg"]
+    []
   user_images:
     []
 
@@ -87,7 +70,7 @@ scripts:
     ""
 seo:
   title:
-    "Industria Millonaria Busca Estudiantes para La Siguiente Ola de Empresarios en Lograr Libertad Financiera"
+    "Padre Desesperado, en Bancarrota y Ansioso por Cambiar Su Situación Financiera"
   description:
     "page description"
   keywords:

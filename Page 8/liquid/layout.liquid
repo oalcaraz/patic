@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Padre Desesperado, en Bancarrota y Ansioso por Cambiar Su Situación Financiera</title>
+    <meta name="description" content="{{seo.description}}">
+    <meta name="keywords" content="{{seo.keywords}}">
+    <title>{{seo.title}}</title>
     <link rel="stylesheet" href="{% stylesheet_url 'bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% stylesheet_url 'style.css' %}"/>
+    {{scripts.head_tracking_script}}
   </head>
-  <body>
+  <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
       <header>
         <div class="container">
           <div class="row">
@@ -14,7 +17,7 @@
              <hr>
             </div>
             <div id="header-title" class="col-md-4">
-              <h2>Noticia de última hora</h2>
+              <h2 id="titulo_principal" style="{% for style in editable_elements.titulo_principal.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.titulo_principal.text}}</h2>
             </div>
             <div class="col-md-4 header-hr">
               <hr>
@@ -24,31 +27,32 @@
       </header>
       <div class="container">
         <div id="titles">
-         <h1>“Padre Desesperado, en Bancarrota y Ansioso por <b>Cambiar Su Situación Financiera</b> Hace Un Último Intento por Recuperar La Confianza de Su Familia</h1>
-         <h2>… Lo que sucedió fue algo impresionante”</h2>
+         <h1 id="texto_principal_1" style="{% for style in editable_elements.texto_principal_1.css %}{{style[0]}}:{{style[1]}};{% endfor %}" >{{editable_elements.texto_principal_1.text}}</h1>
+         <h2 id="texto_principal_2" style="{% for style in editable_elements.texto_principal_2.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_principal_2.text}}</h2>
         </div>
         <div class="row raul-row">
           <div id="raul-luna">
-            <img src="{% image_url 'raul-luna_03.png' %}">
-            <h3>Raul Luna</h3>
+            <img id="person_1_picture" src="{% if editable_elements.person_1_picture.type == 'default' %}{% image_url 'raul-luna_03.png' %}{% else %}{{ editable_elements.person_1_picture.src }}{% endif %}" class="img-circle">
+            <h3 id="person_1_name" style="{% for style in editable_elements.person_1_name.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.person_1_name.text}}</h3>
           </div>
           <div id="texts" class="col-md-7">
-            <p>Estimado emprendedor,<br><br>
-            Estaba en bancarrota, sin dinero y sin contactos pero encontré una industria que cambió mi vida para siempre.<br><br>
-            ¿Te gustaría saber que industria y los errores que debes evitar?</p>
-            <h2>¡Sí! Es Completamente GRATIS</h2>
+            <p id="texto_secundario_1" style="{% for style in editable_elements.texto_secundario_1.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_secundario_1.text}}</p><br/>
+            <p id="texto_secundario_2" style="{% for style in editable_elements.texto_secundario_2.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_secundario_2.text}}</p><br/>
+            <p id="texto_secundario_3" style="{% for style in editable_elements.texto_secundario_3.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_secundario_3.text}}</p>
+            <h2 id="texto_secundario_4" style="{% for style in editable_elements.texto_secundario_4.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_secundario_4.text}}</h2>
           </div>
         </div>
       </div>
       <div id="form-bg">
         <div class="container">
           <form method="post">
-            <h3>¿Dónde te envió esta información?</h3>
-            <input class="text-inputs" type="text" name="name" placeholder="Ingresa tu nombre…">
-            <input class="text-inputs" type="text" name="email" placeholder="Ingresa tu email…">
-            <div id="send-now"><input type="submit" value="Enviar Ahora"></div>
+            <h3 id="texto_direccion_envio" style="{% for style in editable_elements.texto_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_direccion_envio.text}}</h3>
+            <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
+            <input id="input_mail" class="text-inputs" type="text" name="email" placeholder="{{editable_elements.input_mail.placeholder}}">
+            <div id="send-now"><input type="submit" value="{{editable_elements.input_send.value}}" id="input_send"></div>
          </form>
        </div>
      </div>
+     {{scripts.bottom_tracking_script}}
   </body>
 </html>
