@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Descubre Las Cinco Industrias Que Te Crearán RIQUEZA</title>
+    <meta name="description" content="{{seo.description}}">
+    <meta name="keywords" content="{{seo.keywords}}">
+    <title>{{seo.title}}</title>
     <link rel="stylesheet" href="{% stylesheet_url 'bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% stylesheet_url 'style.css' %}"/>
     
@@ -19,16 +21,16 @@
     <div id="main">
       <header>
         <img src="{% image_url 'urgente.png' %}">
-        <h1>NOTICIA DE ÚLTIMA HORA</h1>  
+        <h1 id="main_text" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.main_text.text }}</h1>  
       </header>
-      <div id="video-header"><h2>Descubre Las Cinco Industrias Que Te Crearán RIQUEZA</h2></div>
+      <div id="video-header"><h2 id="secondary_text" style="{% for style in editable_elements.secondary_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.secondary_text.text}}</h2></div>
       <div id="video-box">
         <iframe src="//player.vimeo.com/video/77013565" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <h3>¿Dónde te puedo enviar más información?</h3>
+        <h3 id="pregunta_direccion_envio" style="{% for style in editable_elements.pregunta_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.pregunta_direccion_envio.text}}</h3>
         <form method="post">
-          <input class="text-inputs" type="text" name="name" placeholder="Nombre">
-          <input class="text-inputs" type="text" name="email" placeholder="Email">
-          <div id="send-now"><input type="submit" value="Enviar"></div>
+          <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
+          <input id="input_mail" class="text-inputs" type="text" name="email" placeholder="{{editable_elements.input_mail.placeholder}}">
+          <div id="send-now"><input id="input_boton_enviar" type="submit" value="{{editable_elements.input_boton_enviar.value}}"></div>
         </form>
       </div>
       <footer>
