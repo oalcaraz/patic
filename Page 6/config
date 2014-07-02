@@ -1,27 +1,30 @@
 editable_elements:
   main_text:
     text:
-      "NOTICIA DE ÚLTIMA HORA"
-  secondary_text:
+      "Las Cinco Industrias Que Te Crearán RIQUEZA"
+  play_video:
     text:
-      "Descubre Las Cinco Industrias Que Te Crearán RIQUEZA"
-  pregunta_direccion_envio:
+      "Da click ahora en el video..."
+  titulo_principal:
     text:
-      "¿Dónde te puedo enviar más información?"      
+      "Las Cinco Industrias Que Te Crearán RIQUEZA"
+  ingresa_tus_datos:
+    text:
+      "Ingresa tus datos:"
   input_name:
     placeholder:
-      "Nombre"
+      "Ingresa tu Nombre..."
   input_mail:
     placeholder:
       "Email"
   input_boton_enviar:
     value:
-      "Enviar"
+      "Quiero Ser Parte "
 editable_styles:
   "selector":
     css:
       background-color:
-        "#0C1220"
+        "#ffffff"
 available_fonts:
   "Source Sans Pro": 
     "'Source Sans Pro', sans-serif"
@@ -42,7 +45,7 @@ scripts:
     ""
 seo:
   title:
-    "LAS CINCO INDUSTRIAS QUE TE CREARÁN RIQUEZA"
+    "Las Cinco Industrias Que Te Crearán RIQUEZA"
   description:
     "page description"
   keywords:

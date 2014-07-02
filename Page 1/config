@@ -35,7 +35,7 @@ editable_styles:
   "selector":
     css:
       background-color:
-        "#000000"
+        "#E3D3B8"
 available_fonts:
   "Source Sans Pro": 
     "'Source Sans Pro', sans-serif"
