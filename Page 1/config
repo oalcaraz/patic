@@ -1,0 +1,63 @@
+editable_elements:
+  main_text:
+    text:
+      "LAS CINCO INDUSTRIAS QUE TE CREARÁN"
+  secondary_text:
+    text:
+      "RIQUEZA"
+  pregunta_direccion_envio:
+    text:
+      "¿Dónde te envío esta información?"
+  instruccion_ingreso_correo:
+    text:
+      "Ingresa tu nombre y correo electrónico en las casillas de abajo para enviarte las cinco industrias"
+  label_primer_nombre:
+    text:
+      "Ingresa tu nombre"
+  name:
+    placeholder:
+      "Ingresa tu primer nombre"
+  mail:
+    placeholder:
+      "Ingresa un email válido"
+  label_email:
+    text:
+      "Ingresa un email valido"
+  texto_boton_enviar:
+    text:
+      "Envíame La Info GRATIS"
+  imagen_principal:
+    src:
+      "arrow.png"
+    type:
+      "default"
+editable_styles:
+  "selector":
+    css:
+      background-color:
+        "#000000"
+available_fonts:
+  "Source Sans Pro": 
+    "'Source Sans Pro', sans-serif"
+  "Helvetica Neue": 
+    "'Helvetica Neue', Helvetica, Arial, sans-serif"
+available_font_sizes: 
+  ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px"]
+available_images:
+  template_images:
+    []
+  user_images:
+    []
+scripts:
+  head_tracking_script:
+    "<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'YOUR_CODE', 'YOURSITE.com'); ga('send', 'pageview');</script>"
+
+  bottom_tracking_script:
+    ""
+seo:
+  title:
+    "LAS CINCO INDUSTRIAS QUE TE CREARÁN RIQUEZA"
+  description:
+    "page description"
+  keywords:
+    "keywords"
