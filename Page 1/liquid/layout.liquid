@@ -17,7 +17,7 @@
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {{scripts.head_tracking_script}}
 </head>
-<body class="page-subpage">
+<body class="page-subpage" style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
   <div id="main">
     <div class="row-main">
       <div class="col col-book">

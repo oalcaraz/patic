@@ -18,7 +18,7 @@
     <![endif]-->
     {{scripts.head_tracking_script}}
   </head>
-  <body>
+  <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
     <div id="black-header"></div>
     <div class="container">
       <div class="col-md-8 video">
@@ -30,12 +30,12 @@
       </div>
       <div class="col-md-4 formulario">
         <img src="{% image_url 'arrows_03.png' %}">
-        <h1 class="hidden-xs" id="titulo_principal" style="{% for style in editable_elements.titulo_principal.css %}{{style[0]}}:{{style[1]}};{% endfor %}"></h1>
+        <h1 class="hidden-xs" id="titulo_principal" style="{% for style in editable_elements.titulo_principal.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.titulo_principal.text }}</h1>
         <p class="visible-xs text-center" id="ingresa_tus_datos" style="{% for style in editable_elements.ingresa_tus_datos.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.ingresa_tus_datos.text }}</p>
         <form method="post">
           <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
           <input id="input_mail" class="text-inputs" type="text" name="email" placeholder="{{editable_elements.input_mail.placeholder}}">
-          <div id="send-now"><input id="texto_boton_enviar" type="submit" value="{{editable_elements.input_boton_enviar.value}}"></div>
+          <div id="send-now"><input id="input_boton_enviar" type="submit" value="{{editable_elements.input_boton_enviar.value}}"></div>
         </form>
       </div>
     </div>

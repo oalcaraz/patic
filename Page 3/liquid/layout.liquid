@@ -18,7 +18,7 @@
     <![endif]-->
     {{scripts.head_tracking_script}}
   </head>
-  <body>
+  <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
     <div id="main">
       <header>
         <img src="{% image_url 'urgente.png' %}">
