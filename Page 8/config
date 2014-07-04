@@ -53,8 +53,10 @@ available_fonts:
     "'Source Sans Pro', sans-serif"
   "Helvetica Neue": 
     "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  "Oswald":  
+    "Oswald, sans-serif"
 available_font_sizes: 
-  ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px"]
+  ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px","67px"]
 available_images:
   template_images:
     []
