@@ -16,6 +16,8 @@ header h1 {
   color: white;
   display: inline;
   font-size: 70px;
+  top: 25px;
+  position: relative;
 }
 
 header {
@@ -24,7 +26,7 @@ header {
 }
 
 header img {
-  margin-top: 35px;
+  margin-right: 20px;
 }
 
 #video-header {
