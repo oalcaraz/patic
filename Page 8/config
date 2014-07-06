@@ -59,7 +59,7 @@ available_font_sizes:
   ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px","67px"]
 available_images:
   template_images:
-    []
+    ["raul-luna_03.png"]
   user_images:
     []
 
