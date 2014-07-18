@@ -32,7 +32,7 @@
         </div>
         <div class="row raul-row">
           <div id="raul-luna">
-            <img id="person_1_picture" src="{% if editable_elements.person_1_picture.type == 'default' %}{% image_url 'raul-luna_03.png' %}{% else %}{{ editable_elements.person_1_picture.src }}{% endif %}" class="img-circle">
+            <img id="person_1_picture" src="{% if editable_elements.person_1_picture.type == 'default' %}{% image_url 'raul-luna_03.png' %}{% else %}{{ editable_elements.person_1_picture.src }}{% endif %}" class="img-circle" style="{% for style in editable_elements.person_1_picture.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
             <h3 id="person_1_name" style="{% for style in editable_elements.person_1_name.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.person_1_name.text}}</h3>
           </div>
           <div id="texts" class="col-md-7">
