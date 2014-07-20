@@ -48,7 +48,7 @@ available_font_sizes:
   ["8px","10px","12px","14px","16px","18px","22px","28px","32px","36px","40px","44px","50px"]
 available_images:
   template_images:
-    []
+    ["arrow.png","book.png"]
   user_images:
     []
 scripts:
