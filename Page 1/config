@@ -24,7 +24,7 @@ editable_elements:
     text:
       "Ingresa un email valido"
   texto_boton_enviar:
-    text:
+    value:
       "Envíame La Info GRATIS"
     css:
       font-size:
