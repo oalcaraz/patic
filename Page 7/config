@@ -30,6 +30,9 @@ editable_elements:
   input_mail:
     placeholder:
       "Ingresa tu email"
+  texto_derechos:
+    text:
+      "© 2014 - Todos los derechos reservados."
 editable_styles:
   "selector":
     css:

@@ -60,6 +60,9 @@ editable_elements:
   person_3_name:
     text:
       "José Ardón"
+  texto_derechos:
+    text:
+      "© 2014 - Todos los derechos reservados."
 editable_styles:
   "selector":
     css:
