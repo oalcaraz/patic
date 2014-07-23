@@ -166,4 +166,27 @@ body{position:relative;background:#e3d3b8 url("../images/bg.jpg") no-repeat 50% 
 #main .secure,#main .legal,#main .link{font-size:12px;line-height:16px}
 }@media (max-width: 600px){#main .read-this{font-size:18px;line-height:22px}
 #main h1{font-size:22px;line-height:26px}
+#texto_boton_enviar {
+	position: relative;
+	display: block;
+	height: 60px;
+	padding: 0 10px;
+	font-size: 24px;
+	line-height: 60px;
+	font-family: $fontSource;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 1px solid #ffcd00;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fa0),color-stop(100%,#f08d00));
+	background: -webkit-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -moz-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -ms-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -o-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background-color: #f08d00;
+}
 }.ie7 .bg-ie,.ie8 .bg-ie{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;min-height:100%;z-index:-1}
