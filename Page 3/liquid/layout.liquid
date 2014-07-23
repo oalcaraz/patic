@@ -21,7 +21,7 @@
   <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
     <div id="main">
       <header>
-        <img src="{% image_url 'urgente.png' %}">
+        <img id="alert_picture" src="{% if editable_elements.alert_picture.type == 'default' %}{% image_url 'urgente.png' %}{% else %}{{ editable_elements.alert_picture.src }}{% endif %}" >
         <h1 id="main_text" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.main_text.text }}</h1>  
       </header>
       <div id="video-header"><h2 id="secondary_text" style="{% for style in editable_elements.secondary_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.secondary_text.text}}</h2></div>
@@ -35,7 +35,7 @@
         </form>
       </div>
       <footer>
-        <h4>&copy; 2014</h4>
+        <h4 id="footer_text">{{editable_elements.footer_text.text}}</h4>
       </footer>
     </div>
     {{scripts.bottom_tracking_script}}
