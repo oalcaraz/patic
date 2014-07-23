@@ -81,6 +81,10 @@ form h3 {
   margin-top: 20px;
 }
 
+#person_1_picture {
+  width: 170px;
+}
+
 #form-bg {
   background: url(../images/background.png);
   min-height: 105px;

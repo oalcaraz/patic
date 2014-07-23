@@ -20,6 +20,14 @@ editable_elements:
     css:
       font-size:
         "24px"
+  footer_text:
+    text:
+      "&copy; 2014"
+  alert_picture:
+    src:
+      "urgente.png"
+    type:
+      "default"
 editable_styles:
   "selector":
     css:
@@ -35,14 +43,14 @@ available_fonts:
   "Impact":
     "Impact"
   "Oswald":
-    "'Oswald, sans-serif'"
+    "Oswald, sans-serif"
   "Segoe UI":
     "'Segoe UI', Arial, 'Helvetica Neue', Helvetica, sans-serif"
 available_font_sizes: 
   ["8px","10px","12px","14px","15px","16px","17px","18px","20px","22px","24px","28px","29px","30px","32px","36px","40px","42px","44px","50px","63px","67px","70px"]
 available_images:
   template_images:
-    []
+    ['urgente.png']
   user_images:
     []
 scripts:

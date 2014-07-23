@@ -49,7 +49,7 @@ available_fonts:
   "Impact":
     "Impact"
   "Oswald":
-    "'Oswald, sans-serif'"
+    "Oswald, sans-serif"
   "Segoe UI":
     "'Segoe UI', Arial, 'Helvetica Neue', Helvetica, sans-serif"
 available_font_sizes: 
