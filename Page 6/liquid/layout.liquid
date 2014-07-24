@@ -24,7 +24,9 @@
       <div class="col-md-8 video">
         <h1 class="visible-xs" id="main_text" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}" >{{ editable_elements.main_text.text }}</h1>
         <div id="cuadrado-div">
-        <iframe src="//player.vimeo.com/video/77013565" width="642" height="361" class="wistia_embed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <div id="video_player" class="video-player" style="{% for style in editable_elements.video_player.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
+            {{editable_elements.video_player.html}}
+          </div>
         <h2 class="hidden-xs" id="play_video" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.play_video.text }}</h2>
         </div>
       </div>

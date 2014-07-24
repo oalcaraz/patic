@@ -26,7 +26,7 @@
       </header>
       <div id="video-header"><h2 id="secondary_text" style="{% for style in editable_elements.secondary_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.secondary_text.text}}</h2></div>
       <div id="video-box">
-        <div id="video_player" class="video-player">
+        <div id="video_player" class="video-player" style="{% for style in editable_elements.video_player.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
           {{editable_elements.video_player.html}}
         </div>
         <h3 id="pregunta_direccion_envio" style="{% for style in editable_elements.pregunta_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.pregunta_direccion_envio.text}}</h3>
