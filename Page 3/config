@@ -28,6 +28,9 @@ editable_elements:
       "urgente.png"
     type:
       "default"
+  video_player:
+    html:
+      '<iframe src="//player.vimeo.com/video/77013565" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 editable_styles:
   "selector":
     css:
