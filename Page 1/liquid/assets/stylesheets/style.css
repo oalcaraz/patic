@@ -129,7 +129,32 @@ textarea.inp-text{height:152px;min-height:50px;line-height:50px;padding-top:15px
 .ie7 .btn{display:inline;zoom:1}
 .btn span{position:relative;display:block;height:60px;padding:0 10px;font-size:24px;line-height:60px;font-family:$fontSource;text-decoration:none;color:#fff;font-weight:600;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border-top:1px solid #ffcd00;background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fa0),color-stop(100%,#f08d00));background:-webkit-linear-gradient(top,#fa0 0%,#f08d00 100%);background:-moz-linear-gradient(top,#fa0 0%,#f08d00 100%);background:-ms-linear-gradient(top,#fa0 0%,#f08d00 100%);background:-o-linear-gradient(top,#fa0 0%,#f08d00 100%);background:linear-gradient(top,#fa0 0%,#f08d00 100%);background-color:#f08d00;}
 .btn span em{font-style:normal;text-decoration:underline}
-.btn:hover span{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#faa700),color-stop(100%,#eb8a00));background:-webkit-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-moz-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-ms-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-o-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:linear-gradient(top,#faa700 0%,#eb8a00 100%);background-color:#eb8a00}
+.btn:hover {background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#faa700),color-stop(100%,#eb8a00));background:-webkit-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-moz-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-ms-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:-o-linear-gradient(top,#faa700 0%,#eb8a00 100%);background:linear-gradient(top,#faa700 0%,#eb8a00 100%);background-color:#eb8a00}
+
+.btn {
+	position: relative;
+	display: block;
+	height: 60px;
+	padding: 0 10px;
+	font-size: 24px;
+	line-height: 60px;
+	font-family: $fontSource;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 1px solid #ffcd00;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fa0),color-stop(100%,#f08d00));
+	background: -webkit-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -moz-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -ms-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: -o-linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background: linear-gradient(top,#fa0 0%,#f08d00 100%);
+	background-color: #f08d00;
+}
+
 @media (max-width: 870px){.btn span{height:40px;line-height:40px;font-size:14px}
 }@media (max-width: 600px){.btn span{font-size:12px}
 }html{height:100%}
@@ -166,27 +191,5 @@ body{position:relative;background:#e3d3b8 url("../images/bg.jpg") no-repeat 50% 
 #main .secure,#main .legal,#main .link{font-size:12px;line-height:16px}
 }@media (max-width: 600px){#main .read-this{font-size:18px;line-height:22px}
 #main h1{font-size:22px;line-height:26px}
-#texto_boton_enviar {
-	position: relative;
-	display: block;
-	height: 60px;
-	padding: 0 10px;
-	font-size: 24px;
-	line-height: 60px;
-	font-family: $fontSource;
-	text-decoration: none;
-	color: #fff;
-	font-weight: 600;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	border-top: 1px solid #ffcd00;
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fa0),color-stop(100%,#f08d00));
-	background: -webkit-linear-gradient(top,#fa0 0%,#f08d00 100%);
-	background: -moz-linear-gradient(top,#fa0 0%,#f08d00 100%);
-	background: -ms-linear-gradient(top,#fa0 0%,#f08d00 100%);
-	background: -o-linear-gradient(top,#fa0 0%,#f08d00 100%);
-	background: linear-gradient(top,#fa0 0%,#f08d00 100%);
-	background-color: #f08d00;
-}
+
 }.ie7 .bg-ie,.ie8 .bg-ie{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;min-height:100%;z-index:-1}
