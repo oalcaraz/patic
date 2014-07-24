@@ -26,7 +26,9 @@
       </header>
       <div id="video-header"><h2 id="secondary_text" style="{% for style in editable_elements.secondary_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.secondary_text.text}}</h2></div>
       <div id="video-box">
-        <iframe src="//player.vimeo.com/video/77013565" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div id="video_player" class="video-player" style="{% for style in editable_elements.video_player.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
+          {{editable_elements.video_player.html}}
+        </div>
         <h3 id="pregunta_direccion_envio" style="{% for style in editable_elements.pregunta_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.pregunta_direccion_envio.text}}</h3>
         <form method="post">
           <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
