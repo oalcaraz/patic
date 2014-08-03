@@ -16,6 +16,10 @@
   <link rel="shortcut icon" href="./favicon.ico" />
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {{scripts.head_tracking_script}}
+
+  <style>
+  {{head_styles}}
+  </style>
 </head>
 <body class="page-subpage" style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
   <div id="main">
@@ -25,11 +29,11 @@
       </div>
       <div class="col col-content">
         <div class="in">
-          <h2 id="main_text" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}" >{{ editable_elements.main_text.text }}</h2>
-          <h1 id="secondary_text" style="{% for style in editable_elements.secondary_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.secondary_text.text}}</h1>
+          <h2 id="main_text">{{ editable_elements.main_text.text }}</h2>
+          <h1 id="secondary_text">{{editable_elements.secondary_text.text}}</h1>
           <hr>
-          <h3 id="pregunta_direccion_envio" style="{% for style in editable_elements.pregunta_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.pregunta_direccion_envio.text}}</h3>
-          <p id="instruccion_ingreso_correo" style="{% for style in editable_elements.instruccion_ingreso_correo.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.instruccion_ingreso_correo.text}}</p>
+          <h3 id="pregunta_direccion_envio">{{editable_elements.pregunta_direccion_envio.text}}</h3>
+          <p id="instruccion_ingreso_correo">{{editable_elements.instruccion_ingreso_correo.text}}</p>
           <form  method="post">
             <div class="row with-info-text">
               <label id="label_primer_nombre" for="name" class="label">{{editable_elements.label_primer_nombre.text}}</label>

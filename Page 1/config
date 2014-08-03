@@ -2,15 +2,51 @@ editable_elements:
   main_text:
     text:
       "LAS CINCO INDUSTRIAS QUE TE CREARÁN"
+    css:
+      font-size:
+        "42px"
+    tablet_css:
+      font-size:
+        "42px"
+    phone_css:
+      font-size:
+        "42px"
   secondary_text:
     text:
       "RIQUEZA"
+    css:
+      font-size:
+        "63px"
+    tablet_css:
+      font-size:
+        "30px"
+    phone_css:
+      font-size:
+        "22px"
   pregunta_direccion_envio:
     text:
       "¿Dónde te envío esta información?"
+    css:
+      font-size:
+        "18px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "18px"
   instruccion_ingreso_correo:
     text:
       "Ingresa tu nombre y correo electrónico en las casillas de abajo para enviarte las cinco industrias"
+    css:
+      font-size:
+        "18px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "18px"
   label_primer_nombre:
     text:
       "Ingresa tu nombre"
