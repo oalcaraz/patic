@@ -2,15 +2,42 @@ editable_elements:
   main_text:
     text:
       "Las Cinco Industrias Que Te Crearán RIQUEZA"
+    css:
+      font-size:
+        "36px"
+    tablet_css:
+      font-size:
+        "25px"
+    phone_css:
+      font-size:
+        "20px"
   play_video:
     text:
       "Da click ahora en el video..."
+    css:
+      font-size:
+        "30px"
+    tablet_css:
+      font-size:
+        "23px"
+    phone_css:
+      font-size:
+        "23px"
   titulo_principal:
     text:
       "Las Cinco Industrias Que Te Crearán RIQUEZA"
   ingresa_tus_datos:
     text:
       "Ingresa tus datos:"
+    css:
+      font-size:
+        "14px"
+    tablet_css:
+      font-size:
+        "14px"
+    phone_css:
+      font-size:
+        "14px"
   input_name:
     placeholder:
       "Ingresa tu Nombre..."

@@ -17,23 +17,26 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     {{scripts.head_tracking_script}}
+    <style>
+    {{head_styles}}
+    </style>
   </head>
   <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
     <div id="black-header"></div>
     <div class="container">
       <div class="col-md-8 video">
-        <h1 class="visible-xs" id="main_text" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}" >{{ editable_elements.main_text.text }}</h1>
+        <h1 class="visible-xs" id="main_text" >{{ editable_elements.main_text.text }}</h1>
         <div id="cuadrado-div">
-          <div id="video_player" class="video-player" style="{% for style in editable_elements.video_player.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
+          <div id="video_player" class="video-player">
             {{editable_elements.video_player.html}}
           </div>
-        <h2 class="hidden-xs" id="play_video" style="{% for style in editable_elements.main_text.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.play_video.text }}</h2>
+        <h2 class="hidden-xs" id="play_video" >{{ editable_elements.play_video.text }}</h2>
         </div>
       </div>
       <div class="col-md-4 formulario">
         <img src="{% image_url 'arrows_03.png' %}">
-        <h1 class="hidden-xs" id="titulo_principal" style="{% for style in editable_elements.titulo_principal.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.titulo_principal.text }}</h1>
-        <p class="visible-xs text-center" id="ingresa_tus_datos" style="{% for style in editable_elements.ingresa_tus_datos.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{ editable_elements.ingresa_tus_datos.text }}</p>
+        <h1 class="hidden-xs" id="titulo_principal" >{{ editable_elements.titulo_principal.text }}</h1>
+        <p class="visible-xs text-center" id="ingresa_tus_datos" >{{ editable_elements.ingresa_tus_datos.text }}</p>
         <form method="post">
           <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
           <input id="input_mail" class="text-inputs" type="text" name="email" placeholder="{{editable_elements.input_mail.placeholder}}">

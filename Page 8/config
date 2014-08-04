@@ -2,27 +2,90 @@ editable_elements:
   titulo_principal:
     text:
       "Noticia de última hora"
+    css:
+      font-size:
+        "29px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "18px"
   texto_principal_1:
     text:
       "“Padre Desesperado, en Bancarrota y Ansioso por Cambiar Su Situación Financiera Hace Un Último Intento por Recuperar La Confianza de Su Familia"
+    css:
+      font-size:
+        "67px"
+    tablet_css:
+      font-size:
+        "67px"
+    phone_css:
+      font-size:
+        "28px"
   texto_principal_2:
     text:
       "… Lo que sucedió fue algo impresionante”"
+    css:
+      font-size:
+        "44px"
+    tablet_css:
+      font-size:
+        "19px"
+    phone_css:
+      font-size:
+        "19px"
   texto_direccion_envio:
     text:
       "¿Dónde te envió esta información?"
   texto_secundario_1:
     text:
       "Estimado emprendedor,"
+    css:
+      font-size:
+        "20px"
+    tablet_css:
+      font-size:
+        "20px"
+    phone_css:
+      font-size:
+        "16px"
   texto_secundario_2:
     text:
       "Estaba en bancarrota, sin dinero y sin contactos pero encontré una industria que cambió mi vida para siempre."
+    css:
+      font-size:
+        "20px"
+    tablet_css:
+      font-size:
+        "20px"
+    phone_css:
+      font-size:
+        "16px"
   texto_secundario_3:
     text:
       "¿Te gustaría saber que industria y los errores que debes evitar?"
+    css:
+      font-size:
+        "20px"
+    tablet_css:
+      font-size:
+        "20px"
+    phone_css:
+      font-size:
+        "16px"
   texto_secundario_4:
     text:
       "¡Sí! Es Completamente GRATIS"
+    css:
+      font-size:
+        "44px"
+    tablet_css:
+      font-size:
+        "44px"
+    phone_css:
+      font-size:
+        "30px"
   input_send:
     value:
       "Enviar Ahora"

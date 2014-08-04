@@ -17,6 +17,9 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     {{scripts.head_tracking_script}}
+    <style>
+    {{head_styles}}
+    </style>
   </head>
   <body style="{% for style in editable_styles.body.css %}{{style[0]}}:{{style[1]}};{% endfor %}">
    <header>
@@ -25,9 +28,9 @@
    </header>
    <div id="texts">
      <img src="{% image_url 'arrow.png' %}">
-     <h1 id="texto_principal" style="{% for style in editable_elements.texto_principal.css %}{{style[0]}}:{{style[1]}};{% endfor %}" >{{editable_elements.texto_principal.text}}</h1>
-     <h3 id="texto_secundario" style="{% for style in editable_elements.texto_secundario.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_secundario.text}}</h3>
-     <h4 id="texto_direccion_envio" style="{% for style in editable_elements.texto_direccion_envio.css %}{{style[0]}}:{{style[1]}};{% endfor %}">{{editable_elements.texto_direccion_envio.text}}</h4>
+     <h1 id="texto_principal" >{{editable_elements.texto_principal.text}}</h1>
+     <h3 id="texto_secundario" >{{editable_elements.texto_secundario.text}}</h3>
+     <h4 id="texto_direccion_envio" >{{editable_elements.texto_direccion_envio.text}}</h4>
      <form method="post">
       <input id="input_name" class="text-inputs" type="text" name="name" placeholder="{{editable_elements.input_name.placeholder}}">
       <input id="input_mail" class="text-inputs" type="text" name="email" placeholder="{{editable_elements.input_mail.placeholder}}">

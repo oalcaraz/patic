@@ -15,9 +15,24 @@ editable_elements:
         "none"
       font-style:
         "normal"
+    tablet_css:
+      font-size:
+        "28px"
+    phone_css:
+      font-size:
+        "28px"
   secondary_text:
     text:
       "[Aplica Ahora Mismo]"
+    css:
+      font-size:
+        "18px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "18px"
   input_send:
     value:
       "Enviar Ahora"
@@ -63,6 +78,15 @@ editable_elements:
   texto_derechos:
     text:
       "© 2014 - Todos los derechos reservados."
+    css:
+      font-size:
+        "16px"
+    tablet_css:
+      font-size:
+        "16px"
+    phone_css:
+      font-size:
+        "16px"
 editable_styles:
   "selector":
     css:

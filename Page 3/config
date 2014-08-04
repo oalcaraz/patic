@@ -2,12 +2,39 @@ editable_elements:
   main_text:
     text:
       "NOTICIA DE ÚLTIMA HORA"
+    css:
+      font-size:
+        "70px"
+    tablet_css:
+      font-size:
+        "32px"
+    phone_css:
+      font-size:
+        "32px"
   secondary_text:
     text:
       "Descubre Las Cinco Industrias Que Te Crearán RIQUEZA"
+    css:
+      font-size:
+        "18px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "13px"
   pregunta_direccion_envio:
     text:
-      "¿Dónde te puedo enviar más información?"      
+      "¿Dónde te puedo enviar más información?"
+    css:
+      font-size:
+        "17px"
+    tablet_css:
+      font-size:
+        "13px"
+    phone_css:
+      font-size:
+        "13px"
   input_name:
     placeholder:
       "Nombre"
@@ -23,6 +50,15 @@ editable_elements:
   footer_text:
     text:
       "&copy; 2014"
+    css:
+      font-size:
+        "15px"
+    tablet_css:
+      font-size:
+        "15px"
+    phone_css:
+      font-size:
+        "15px"
   alert_picture:
     src:
       "urgente.png"

@@ -1,16 +1,40 @@
 editable_elements:
-  titulo_principal:
-    text:
-      "Noticia de última hora"
   texto_principal:
     text:
       "Padre de Familia Desesperado y En Bancarrota<br>Descubre Una Industria Que Lo Transforma en Millonario…"
+    css:
+      font-size:
+        "50px"
+    tablet_css:
+      font-size:
+        "28px"
+    phone_css:
+      font-size:
+        "28px"
   texto_direccion_envio:
     text:
       "[¿Dónde puede enviarte esta información?]"
+    css:
+      font-size:
+        "18px"
+    tablet_css:
+      font-size:
+        "18px"
+    phone_css:
+      font-size:
+        "18px"
   texto_secundario:
     text:
       "¿Cómo Puedes Ser Parte de Esta Industria?"
+    css:
+      font-size:
+        "32px"
+    tablet_css:
+      font-size:
+        "32px"
+    phone_css:
+      font-size:
+        "32px"
   input_send:
     value:
       "Enviar Ahora"
@@ -26,6 +50,15 @@ editable_elements:
   texto_derechos:
     text:
       "© 2014 - Todos los derechos reservados."
+    css:
+      font-size:
+        "16px"
+    tablet_css:
+      font-size:
+        "16px"
+    phone_css:
+      font-size:
+        "16px"
 editable_styles:
   "selector":
     css:
