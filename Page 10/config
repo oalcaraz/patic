@@ -1,0 +1,178 @@
+editable_elements:
+  texto_titulo:
+    text:
+      "Construye un Ingreso Perpetuo"
+    css:
+      font-size: "40px"
+    tablet_css:
+      font-size: "40px"
+    phone_css:
+      font-size: "40px"
+
+
+  texto_contenido:
+    text:
+      ""Descubre La Fascinante Industria Que Ha Transformado a Personas Comunes en Dueños de Su Futuro Financiero""
+    css:
+      font-size: "25px"
+    tablet_css:
+      font-size: "25px"
+    phone_css:
+      font-size: "25px"
+
+
+  texto_titulo_form:
+    text:
+      "¿Dónde te envío esta información?"
+    css:
+      font-size: "18px"
+    tablet_css:
+      font-size: "18px"
+    phone_css:
+      font-size: "18px"
+    
+  input_name:
+    placeholder:
+      "Ingresa tu nombre"
+
+  input_mail:
+    placeholder:
+      "Ingresa tu email"
+
+  input_send:
+    text:
+      "Quiero Saber Más"
+    css:
+      font-size: "24px"
+    tablet_css:
+      font-size: "24px"
+    phone_css:
+      font-size: "24px"
+
+
+  testimonial_1_name:
+    text:
+      "Nombre, Apellido"
+    css:
+      font-size: "12px"
+    tablet_css:
+      font-size: "12px"
+    phone_css:
+      font-size: "12px"
+
+  testimonial_1_city:
+    text:
+      "Ciudad y Estado"
+    css:
+      font-size: "10px"
+    tablet_css:
+      font-size: "10px"
+    phone_css:
+      font-size: "10px"
+
+  testimonial_1_text:
+    text:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    css:
+      font-size: "12px"
+    tablet_css:
+      font-size: "12px"
+    phone_css:
+      font-size: "12px"
+
+  testimonial_1_image:
+    src:
+      "avatar.png"
+    type:
+      "default"
+
+
+  testimonial_2_name:
+    text:
+      "Nombre, Apellido"
+    css:
+      font-size: "12px"
+    tablet_css:
+      font-size: "12px"
+    phone_css:
+      font-size: "12px"
+
+  testimonial_2_city:
+    text:
+      "Ciudad y Estado"
+    css:
+      font-size: "10px"
+    tablet_css:
+      font-size: "10px"
+    phone_css:
+      font-size: "10px"
+
+  testimonial_2_text:
+    text:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    css:
+      font-size: "12px"
+    tablet_css:
+      font-size: "12px"
+    phone_css:
+      font-size: "12px"
+
+  testimonial_2_image:
+    src:
+      "avatar.png"
+    type:
+      "default"
+
+
+  privacy_text:
+    text:
+      "Politíca de Privacidad"
+    css:
+      font-size: "14px"
+    tablet_css:
+      font-size: "14px"
+    phone_css:
+      font-size: "14px"
+
+      
+
+available_fonts:
+  "Source Sans Pro": 
+    "'Source Sans Pro', sans-serif"
+  "Helvetica Neue": 
+    "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  "Myriad Pro":
+    "'Myriad Pro'"
+  "Impact":
+    "Impact"
+  "Oswald":
+    "Oswald, sans-serif"
+  "Segoe UI":
+    "'Segoe UI', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+
+available_font_sizes: 
+  ["8px","10px","12px","14px","15px","16px","17px","18px","20px","22px","24px","28px","29px","30px","32px","36px","40px","42px","44px","50px","63px","67px","70px"]
+
+
+available_images:
+  template_images:
+    ['avatar.png']
+  user_images:
+    []
+
+
+scripts:
+  head_tracking_script:
+    ""
+
+  bottom_tracking_script:
+    ""
+
+
+seo:
+  title:
+    "Landing 10"
+  description:
+    "page description"
+  keywords:
+    "keywords"

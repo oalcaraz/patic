@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing 07</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #eee;
+      }
+      #outer-wrap {
+        width: 100%;
+        max-width: 1080px;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 5px 0px #dcdcdc;
+        box-shadow: 0px 0px 5px 0px #dcdcdc;
+      }
+      #top-title {
+        background-color: #f3f3f5;
+        padding: 50px 20px;
+      }
+      #top-title h1 {
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        color: #9a1121;
+        font-size: 40px;
+      }
+      #top-subtitle {
+        background-color: #0083cb;
+        padding: 30px 20px;
+      }
+      #top-subtitle p {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      #form-wrap {
+        margin-top: 30px;
+        position: relative;
+      }
+      #form-wrap .intro-text {
+        color: #bb1c2e;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #form-wrap .btn-primary {
+        background-color: #f7941d;
+        border-color: #E08517;
+        font-weight: bold;
+      }
+      #form-wrap .btn-primary:hover, #form-wrap .btn-primary:focus {
+        background-color: #E78A19;
+      }.testimonial {
+        margin-top: 40px;
+      }
+      #form-wrap .btn-primary .fa {
+        font-size: 24px;
+        vertical-align: top;
+      }
+      .col-avatar {
+        padding-left: 0;
+      }
+      .testimonial .avatar img {
+        border: 3px solid #0083ce;
+        border-radius: 100%;
+      }
+      .testimonial .avatar .avatar-name,
+      .testimonial .avatar .avatar-address {
+        display: block;
+        text-align: center;
+      }
+      .testimonial .avatar .avatar-name {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .testimonial .avatar .avatar-address {
+        font-size: 10px;
+      }
+      .testimonial blockquote {
+        color: #777;
+        border-left: 0;
+        font-size: 12px;
+        margin: 10px 0 0;
+        quotes: "\201C""\201D""\2018""\2019";
+      }
+      .testimonial blockquote:before,
+      .testimonial blockquote:after {
+        font-size: 60px;
+        font-style: italic;
+        display: block;
+        color: #bf1e2e;
+      }
+      .testimonial blockquote:before {
+        content: open-quote;
+        float: left;
+        margin-right: 10px;
+        margin-top: 16px;
+        line-height: 0px;
+      }
+      .testimonial blockquote:after {
+        content: close-quote;
+        float: right;
+        line-height: 0;
+        margin-top: 26px;
+      }
+      #footer {
+        padding: 30px 0;
+        margin-top: 30px;
+      }
+      #footer p:last-child {
+        margin: 0;
+        font-size: 14px;
+      }
+      #footer a {
+        color: #999;
+        text-decoration: none;
+      }
+      #footer a:hover, #footer a:focus {
+        color: #666;
+      }
+      
+      @media (min-width: 768px) {
+        #big-red-arrow {
+          position: absolute;
+          width: 175px;
+          height: auto;
+          top: -55px;
+          right: -190px;
+        }
+        .col-form-wrap {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .container {
+          width: 970px;
+        }
+        #big-red-arrow {
+          width: 225px;
+          top: -65px;
+          right: -240px;
+        }
+      }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="outer-wrap">
+      <div id="top-title">
+        <div class="container">
+          <h1>Construye un Ingreso Perpetuo</h1> 
+        </div>
+      </div>
+      <div id="top-subtitle">
+        <p class="container">
+          "Descubre La Fascinante Industria Que Ha Transformado a Personas Comunes en Due&ntilde;os de Su Futuro Financiero"
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4 col-form-wrap">
+            <div id="form-wrap">
+              <img class="hidden-xs" id="big-red-arrow" src="assets/images/arrow.png" />
+              <p class="intro-text">
+                &iquest;D&oacute;nde te env&iacute;o esta informaci&oacute;n?
+              </p>
+              <form role="form">
+                <div class="form-group">
+                  <label class="sr-only" for="name">Ingresa tu nombre&hellip;</label>
+                  <input type="text" id="name" name="name" class="form-control input-lg" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="email">Ingresa tu email&hellip;</label>
+                  <input type="text" id="email" name="email" class="form-control input-lg" placeholder="Ingresa tu email">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block btn-lg">Quiero Saber M&aacute;s <i class="fa fa-arrow-circle-o-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-5">
+            <div class="row">
+              <div class="testimonial">
+                <div class="col-sm-3 col-sm-push-9 col-avatar">
+                  <div class="avatar">
+                    <img class="center-block img-responsive" src="assets/images/avatar.png"/>                
+                    <span class="avatar-name">Nombre, Apellido</span>
+                    <span class="avatar-address">Ciudad y Estado</span>
+                  </div>
+                </div>
+                <div class="col-sm-9 col-sm-pull-3">
+                  <blockquote>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-sm-offset-0 col-md-5 col-md-offset-2">
+            <div class="row">
+              <div class="testimonial">
+                <div class="col-sm-3 col-sm-push-9 col-avatar">
+                  <div class="avatar">
+                    <img class="center-block img-responsive" src="assets/images/avatar.png"/>                
+                    <span class="avatar-name">Nombre, Apellido</span>
+                    <span class="avatar-address">Ciudad y Estado</span>
+                  </div>
+                </div>
+                <div class="col-sm-9 col-sm-pull-3">
+                  <blockquote>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <p class="text-center"><a href="#">P&oacute;litica de Privacidad</a></p>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
