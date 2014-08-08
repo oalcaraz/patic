@@ -29,11 +29,11 @@
     <div id="outer-wrap">
       <div id="top-title">
         <div class="container">
-          <h1>{{editable_elements.texto_titulo.text}}</h1> 
+          <h1 id="texto_titulo">{{editable_elements.texto_titulo.text}}</h1> 
         </div>
       </div>
       <div id="top-subtitle">
-        <p class="container">
+        <p class="container" id="texto_contenido">
           {{editable_elements.texto_contenido.text}}
         </p>
       </div>
@@ -42,19 +42,19 @@
           <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4 col-form-wrap">
             <div id="form-wrap">
               <img class="hidden-xs" id="big-red-arrow" src="{% image_url 'arrow.png' %}" />
-              <p class="intro-text">
+              <p class="intro-text" id="texto_titulo_form">
                 {{editable_elements.texto_titulo_form.text}}
               </p>
               <form method="post" role="form">
                 <div class="form-group">
                   <label class="sr-only" for="name">Ingresa tu nombre&hellip;</label>
-                  <input type="text" id="name" name="name" class="form-control input-lg" placeholder="{{editable_elements.input_name.placeholder}}">
+                  <input type="text" id="input_name" name="name" class="form-control input-lg" placeholder="{{editable_elements.input_name.placeholder}}">
                 </div>
                 <div class="form-group">
                   <label class="sr-only" for="email">Ingresa tu email&hellip;</label>
-                  <input type="text" id="email" name="email" class="form-control input-lg" placeholder="{{editable_elements.input_mail.placeholder}}">
+                  <input type="text" id="input_mail" name="email" class="form-control input-lg" placeholder="{{editable_elements.input_mail.placeholder}}">
                 </div>
-                <button type="submit" class="btn btn-primary btn-block btn-lg">{{editable_elements.input_send.text}} <i class="fa fa-arrow-circle-o-right"></i></button>
+                <button type="submit" class="btn btn-primary btn-block btn-lg" id="input_send">{{editable_elements.input_send.text}} <i class="fa fa-arrow-circle-o-right"></i></button>
               </form>
             </div>
           </div>
@@ -65,13 +65,13 @@
               <div class="testimonial">
                 <div class="col-sm-3 col-sm-push-9 col-avatar">
                   <div class="avatar">
-                    <img class="center-block img-responsive" src="{% if editable_elements.testimonial_1_image.type == 'default' %}{% image_url 'avatar.png' %}{% else %}{{ editable_elements.testimonial_1_image.src }}{% endif %}"/>  
-                    <span class="avatar-name">{{editable_elements.testimonial_1_name.text}}</span>
-                    <span class="avatar-address">{{editable_elements.testimonial_1_city.text}}</span>
+                    <img id="testimonial_1_image" class="center-block img-responsive" src="{% if editable_elements.testimonial_1_image.type == 'default' %}{% image_url 'avatar.png' %}{% else %}{{ editable_elements.testimonial_1_image.src }}{% endif %}"/>  
+                    <span class="avatar-name" id="testimonial_1_name">{{editable_elements.testimonial_1_name.text}}</span>
+                    <span class="avatar-address" id="testimonial_1_city">{{editable_elements.testimonial_1_city.text}}</span>
                   </div>
                 </div>
                 <div class="col-sm-9 col-sm-pull-3">
-                  <blockquote>
+                  <blockquote id="testimonial_1_text">
                     {{editable_elements.testimonial_1_text.text}}
                   </blockquote>
                 </div>
@@ -83,13 +83,13 @@
               <div class="testimonial">
                 <div class="col-sm-3 col-sm-push-9 col-avatar">
                   <div class="avatar">
-                    <img class="center-block img-responsive" src="{% if editable_elements.testimonial_2_image.type == 'default' %}{% image_url 'avatar.png' %}{% else %}{{ editable_elements.testimonial_2_image.src }}{% endif %}"/>  
-                    <span class="avatar-name">{{editable_elements.testimonial_2_name.text}}</span>
-                    <span class="avatar-address">{{editable_elements.testimonial_2_city.text}}</span>
+                    <img id="testimonial_2_image" class="center-block img-responsive" src="{% if editable_elements.testimonial_2_image.type == 'default' %}{% image_url 'avatar.png' %}{% else %}{{ editable_elements.testimonial_2_image.src }}{% endif %}"/>  
+                    <span class="avatar-name" id="testimonial_2_name">{{editable_elements.testimonial_2_name.text}}</span>
+                    <span class="avatar-address" id="testimonial_2_city">{{editable_elements.testimonial_2_city.text}}</span>
                   </div>
                 </div>
                 <div class="col-sm-9 col-sm-pull-3">
-                  <blockquote>
+                  <blockquote id="testimonial_2_text">
                     {{editable_elements.testimonial_2_text.text}}
                   </blockquote>
                 </div>
@@ -99,7 +99,7 @@
         </div>
       </div>
       <footer id="footer">
-        <p class="text-center"><a href="#">{{editable_elements.privacy_text.text}}</a></p>
+        <p class="text-center" id="privacy_text"><a href="#">{{editable_elements.privacy_text.text}}</a></p>
     </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
