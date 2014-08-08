@@ -9,10 +9,9 @@ editable_elements:
     phone_css:
       font-size: "40px"
 
-
   texto_contenido:
     text:
-      ""Descubre La Fascinante Industria Que Ha Transformado a Personas Comunes en Dueños de Su Futuro Financiero""
+      "\"Descubre La Fascinante Industria Que Ha Transformado a Personas Comunes en Dueños de Su Futuro Financiero\""
     css:
       font-size: "25px"
     tablet_css:
@@ -30,7 +29,7 @@ editable_elements:
       font-size: "18px"
     phone_css:
       font-size: "18px"
-    
+
   input_name:
     placeholder:
       "Ingresa tu nombre"
@@ -86,7 +85,6 @@ editable_elements:
     type:
       "default"
 
-
   testimonial_2_name:
     text:
       "Nombre, Apellido"
@@ -123,7 +121,6 @@ editable_elements:
     type:
       "default"
 
-
   privacy_text:
     text:
       "Politíca de Privacidad"
@@ -134,12 +131,10 @@ editable_elements:
     phone_css:
       font-size: "14px"
 
-      
-
 available_fonts:
-  "Source Sans Pro": 
+  "Source Sans Pro":
     "'Source Sans Pro', sans-serif"
-  "Helvetica Neue": 
+  "Helvetica Neue":
     "'Helvetica Neue', Helvetica, Arial, sans-serif"
   "Myriad Pro":
     "'Myriad Pro'"
@@ -160,7 +155,6 @@ available_images:
   user_images:
     []
 
-
 scripts:
   head_tracking_script:
     ""
@@ -168,11 +162,10 @@ scripts:
   bottom_tracking_script:
     ""
 
-
 seo:
   title:
-    "Landing 10"
+    "CONSTRUYE UN INGRESO PERPETUO"
   description:
-    "page description"
+    ""
   keywords:
-    "keywords"
+    ""
