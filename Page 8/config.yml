@@ -126,8 +126,7 @@ available_fonts:
     "'Segoe UI', Arial, 'Helvetica Neue', Helvetica, sans-serif"
 available_font_sizes: 
   ["8px","10px","12px","14px","15px","16px","17px","18px","20px","22px","24px","28px","29px","30px","32px","36px","40px","42px","44px","50px","63px","67px","70px"]
-available_images:file:///home/martin/Workspace/ricolife/ricolife-pages/Page%209/config
-
+available_images:
   template_images:
     ["raul-luna_03.png"]
   user_images:
